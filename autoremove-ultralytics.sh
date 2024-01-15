@@ -1,0 +1,1 @@
+docker run --privileged -it --rm -v ~/pick-place-system/autoremove:/usr/src/ultralytics/pick-place/autoremove ultralytics/ultralytics
