@@ -30,13 +30,6 @@ while True:
     
     # INFERENCE
     detections = model(frame, conf=0.7)
-    keypoints = detections[0].keypoints.xy
-    print(len(keypoints))
-    base_x = int(keypoints[0][0][0])
-    base_y = int(keypoints[0][0][1])
-    thread_x = int(keypoints[0][1][0])
-    thread_y = int(keypoints[0][1][1])
-    print(base_x, base_y, thread_x, thread_y)
     annotated_frame = detections[0].plot()
 
     video.write(annotated_frame)

@@ -1,1 +1,1 @@
-docker run --privileged -it --rm -v ~/pick-place-system/autoremove:/usr/src/ultralytics/pick-place/autoremove ultralytics/ultralytics
+docker run --privileged -it --rm -v /home/cristhian/Projects/pick-place/pick-place-system/autoremove:/usr/src/ultralytics/pick-place/autoremove ultralytics/ultralytics:8.0.239

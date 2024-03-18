@@ -1,0 +1,5 @@
+rosdep
+rosinstall
+rosinstall-generator
+wstool
+empy

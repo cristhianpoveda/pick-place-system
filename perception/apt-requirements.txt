@@ -1,0 +1,5 @@
+ros-noetic-ros-base
+build-essential
+ros-noetic-rviz
+ros-noetic-realsense2-camera
+ros-noetic-realsense2-description
